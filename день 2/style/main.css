@@ -1,0 +1,131 @@
+body {
+    background-color: #151313;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+
+/* шапка */
+
+.back-1 {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    text-align: right;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+
+
+/* 1 блок */
+
+.text-with-photo {
+    display: flex;
+    /*расположение элементов слева, в центре, справа*/
+    justify-content: space-between;
+}
+
+.text-with-photo ul li {
+    color: aliceblue;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+
+/* 3 блок */
+
+.block-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-3 img {
+    width: auto;
+    height: 400px;
+}
+
+.block-3-text {
+    padding-left: 50px;
+}
+
+.block-3-text p {
+    color: #4E4C4C;
+    font-family: 'Julee';
+    font-size: 18px;
+}
+
+
+/* блок с фотографиями  */
+
+.photo {
+    word-spacing: 50px;
+    text-align: center;
+}
+
+
+/* блок 7 */
+
+.sport-block-img {
+    word-spacing: 50px;
+    text-align: center;
+}
+
+.sport-block p {
+    color: aliceblue;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+
+/* блок итоговый */
+
+.text-info {
+    text-align: center;
+}
+
+.text-info p {
+    color: aliceblue;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+.text-info input {
+    color: aliceblue;
+    background-color: #630000;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Julee';
+    font-size: 30px;
+}
+
+.text-info input:hover {
+    color: #630000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    width: 220px;
+    height: 70px;
+    transition: all 0.6s ease-in-out;
+}
+
+.end {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}

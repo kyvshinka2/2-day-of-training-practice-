@@ -1,0 +1,85 @@
+body {
+    background-color: #151313;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+
+/* шапка */
+
+.back-1 {
+    width: 10%;
+    height: auto;
+    background-color: #460000;
+    text-align: center;
+}
+
+.back-2 {
+    width: 100%;
+    height: auto;
+    background-color: #460000;
+    text-align: right;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+
+
+/* кнопка выхода на главную страницу */
+
+.text-info input {
+    color: aliceblue;
+    background-color: #630000;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Julee';
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.text-info input:hover {
+    color: #630000;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: none;
+    width: 220px;
+    height: 70px;
+    transition: all 0.6s ease-in-out;
+}
+
+
+/* соре соре, сайт не работает */
+
+.text {
+    width: 400px;
+    background-color: #ff0000;
+    border-radius: 40px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.text p {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-family: 'Julee';
+}
+
+
+/* конец */
+
+.end {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
